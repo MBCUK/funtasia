@@ -5,7 +5,7 @@ $('#gallery-page').live('pageshow', function () {
 		$myPhotoSwipe = $(".gallery a").photoSwipe({ enableMouseWheel: false , enableKeyboard: false });});
 		
 $('#send').live("click", function() {
-				var url = 'http://broadwaysoftwareltd.co.uk/castles/send.php';
+				var url = 'http://broadwaysoftwareltd.co.uk/funtasia/send.php';
 				var error = 0;
 				var $contactpage = $(this).closest('.ui-page');
 				var $contactform = $(this).closest('.contact-form');
