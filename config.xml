@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.funtasia.festival"
+        versionCode="12" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Funtasia Festival</name>
+
+<description>
+Funtasia is a Family fun festival held at Los Altos Park Sandown, Isle of Wight. Supporting Daisy Chains IW
+
+</description>
+
+    <author href="http://BroadwaySoftwareLtd.co.uk" email="support@BroadwaySoftwareLtd.co.uk">
+        Broadway Software Ltd
+    </author>
+
+<icon src="icon512.png"></icon>
+
+<preference name="orientation" value="portrait" />
+<preference name="fullscreen" value="true" />
+<feature name="http://api.phonegap.com/1.0/network"/>
+</widget>
